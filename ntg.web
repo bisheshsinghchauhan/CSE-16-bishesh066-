@@ -1,0 +1,50 @@
+Notes
+<ol>
+                    <b>Types Of List</b>
+                <li>Ordered-<ol></li>
+                <li>Unordered-<ul></li>
+                <li>description</li>
+                <li>nested</li>
+                <li>mixed</li>
+                Description list - dl tag(to start this tag.)-dt tag(dark)-dd tag(shirt)
+
+
+(LInk Together)
+
+
+<!-- <a href-"URL">Link Text</a> -->
+Opening Link of other tab
+<a href="URL" target="_blank" rel="noopener noreferrer" title-"Open google.com in a new tab">Link Text</a>
+rel="noopener noreferrer" title-"Open google.com in a new tab" - then - (backend part)
+
+
+(4 AND 5 are together)!
+
+
+Link to the section to the same page
+<a href="URL" target="_blank" title-"Open google.com in a new tab">
+<a href="#Contact-section">Jump to contact section</a>
+Force Browser To Download The File
+<a href="URL(google file)" download>Download the cource report</a>
+For Commiting - Control + ?(Question Mark)
+
+
+File ADDON Codes-(LOCAL VIDEO)
+
+
+<video width="x" height="y" controls>
+<source src="URL" type="video/mp4">
+</video>
+
+-----------------Table------------------
+(INSIDE THE TAGS) 
+<table border/cellpadding/cellspacing/widht/align/bgcolor = "Number">
+space inside cells cellpadding
+space btw cells cellspacing
+
+
+Rowspawn="number"
+Colspawn="number"
+<th> = table hedding
+<td> = table data
+<tr> = table reading
