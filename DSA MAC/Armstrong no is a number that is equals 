@@ -1,0 +1,79 @@
+% Armstrong no
+is a number that is equals to the 
+sum of its own digits each raised to the power of the number of digit
+
+
+% Febonacci series
+is the sequence where each number is the 
+sum of the previous 2 numbers of the sequences
+
+
+% print pairs of numbers , like 
+i=2 ; j=4
+i=4 ; j=8;
+i=3 ; j=3;
+
+
+
+break=used to terminate the loop immediatly.
+continue=skip the current iteration and move to the next one.
+array=multiple loop variables.
+
+% Array
+
+Array=An array is a collection of data items of the same type that are stored in
+countigues memory locations
+Syntax=Data type arr-var[Size].  - ex-intarr[5]/chararr[6]/floatarr[10]
+where data type is int/char/float etc
+
+indexing starts from 0 memory is statically alocated at compile time.
+array is a homogenous type of element(only one type like int char etc)
+
+[5][10][11][12][14][15]--array elements and boxes are memory 
+0---1---2---3---4---5--(index array) - array size = 6
+
+
+(1)Traversing(printing all elements of an array)
+(2)Searching(Linear and Binary)
+(3)Sorting(Bubble,Selection,Insertion)
+(4)Insertion(At the beginning,At the end,At a given position)
+(5)Deletion(At the beginning,At the end,At a given position)
+
+Arrays are used to store multiple values in a single variable,
+instead of declaring separate variables for each value.
+Array is the big size of elemets of the same data type. 
+stored in a countigues memory and indexing starts from 0.
+
+% Array writting technique-
+
+int/floatarr[5] --declaring an array of 5 elements of
+int- data type
+arr-var- array variable
+Size- number of elements in the arrays in the number.
+
+% Array Item Sorting - 
+
+
+address
+-----------------------------
+ 29 | 75 | 69 | 22 | 2 | 95 | ----(29,75,69,22,2,95) array elements and n=6
+-----------------------------
+--0----1----2----3----4---5--(index)
+
+linear search(A,N,item)--(Let us say 22 is our number)
+1.loc=-1
+2.i=0
+3.Repeat while i<N and A[i]=/item
+            0<6.         29=/22
+            1<6.         75=/22
+            2<6          69=/22
+            3<6          22=22  --found
+4.if i<N
+     loc=i
+    return loc
+
+
+% Sorting(Bubble Sort) -
+Bubble sort is a simple sorting algorithm that repeatedly steps through the list,
+compares adjacent elements and swaps them if they are in the wrong order.
+29-75-69-22-2-95
