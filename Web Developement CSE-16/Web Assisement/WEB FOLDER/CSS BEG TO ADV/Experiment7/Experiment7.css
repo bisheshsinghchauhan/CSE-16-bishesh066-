@@ -4,7 +4,7 @@ body {
   background-color: rgb(44, 41, 41);
 }
 
-.block_menu a {
+.block-menu a {
   display: block;
   background-color: #6287a0;
   color: rgb(255, 255, 255);
@@ -12,7 +12,7 @@ body {
   margin: 5px 0;
 }
 
-.inline_menu a {
+.inline-menu a {
   display: inline;
   background-color: #384f41;
   color: rgb(255, 255, 255);
@@ -20,7 +20,7 @@ body {
   margin: 5px;
 }
 
-.inline_block_menu a {
+.inline-block-menu a {
   display: inline-block;
   background-color: #632d49;
   color: rgb(252, 252, 252);
@@ -28,7 +28,7 @@ body {
   margin: 5px;
 }
 
-.float_menu a {
+.float-menu a {
   float: left;
   background-color: #997658;
   color: rgb(255, 254, 254);
