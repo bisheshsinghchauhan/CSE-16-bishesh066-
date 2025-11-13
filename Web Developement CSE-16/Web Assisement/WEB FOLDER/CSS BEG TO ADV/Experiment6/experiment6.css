@@ -4,7 +4,6 @@ body{
     margin: 20px;
     
 }
-/*heading style*/
 h1 {
     color: rgb(1, 1, 1);
     text-align : center;
@@ -13,7 +12,6 @@ h2 {
     color: rgb(10, 10, 10);
     text-align: center;
 }
-/*product Box style*/
 .product-box {
     border: 2px solid rgb(255, 255, 255);
     padding: 15px;
@@ -22,9 +20,8 @@ h2 {
     align-self: center;
     width:500px;
     height: 650px;
-    border-radius: 8px;  /*rounded corners*/
+    border-radius: 8px; 
 }
-/*product image styling*/
 .product-box img {
     border-radius: 5px;
    align-self: center;
@@ -38,7 +35,6 @@ h2 {
     text-align: center;
     margin-top: 15px;
 }
-/*product price*/
 .price {
     font-size: 20px;
     color: rgb(212, 13, 13);
@@ -53,9 +49,9 @@ button {
     cursor: pointer;
     font-size: 16px;
     display: block;
-    margin: 20px auto 0 auto; /*center button*/
+    margin: 20px auto 0 auto;
 }
 img {
     display: block;
-    margin: 0 auto; /*center image*/
+    margin: 0 auto; 
 }
