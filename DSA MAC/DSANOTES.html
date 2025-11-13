@@ -22,7 +22,7 @@ int- data type<br>
 arr-var- array variable<br>
 Size- number of elements in the arrays in the number.</p>
 <h2>print pairs of numbers , like : <br></h2>
-<p>i=2 ; j=4<br>
+<p>i=2 ; j=4;<br>
 i=4 ; j=8;<br>
 i=3 ; j=3;<br>
 break=used to terminate the loop immediatly.<br>
@@ -30,11 +30,11 @@ continue=skip the current iteration and move to the next one.<br>
 array=multiple loop variables.<br></p>
 <h2>Array : </h2>
 <p>Array=An array is a collection of data items of the same type that are stored in
-countigues memory locations
-Syntax=Data type arr-var[Size].  - ex-intarr[5]/chararr[6]/floatarr[10]
-where data type is int/char/float etc<br><br>
+countigues memory locations<br>
+Syntax=Data type arr-var[Size].  - ex-intarr[5]/chararr[6]/floatarr[10]<br>
+where data type is int/char/float etc.<br>
 
-indexing starts from 0 memory is statically alocated at compile time.
+indexing starts from 0 memory is statically alocated at compile time.<br>
 array is a homogenous type of element(only one type like int char etc)<br><br>
 
 [5][10][11][12][14][15]--array elements and boxes are memory 
@@ -46,7 +46,7 @@ array is a homogenous type of element(only one type like int char etc)<br><br>
 (3)Sorting(Bubble,Selection,Insertion)<br>
 (4)Insertion(At the beginning,At the end,At a given position)<br>
 (5)Deletion(At the beginning,At the end,At a given position)<br>
-
+<br>
 Arrays are used to store multiple values in a single variable,<br>
 instead of declaring separate variables for each value.<br>
 Array is the big size of elemets of the same data type. <br>
@@ -62,13 +62,35 @@ stored in a countigues memory and indexing starts from 0.<br></p>
 1.loc=-1<br>
 2.i=0<br>
 3.Repeat while i<N and A[i]=/item<br>
-            0<6.         29=/22<br>
-            1<6.         75=/22<br>
-            2<6          69=/22<br>
-            3<6          22=22  --found<br>
+          1.  0<6.         29=/22<br>
+          2.  1<6.         75=/22<br>
+          3.  2<6          69=/22<br>
+          4.  3<6          22=22  --found<br>
 4.if is is less than N then<br>
      loc=i<br>
-    return loc <br>
+    return loc. <br>
     </p><br>
+    <h2>Sorting Type : </h2>
+    <p>1.Selection Sort = find the minimum element in unsorted array and swap it with element<br>
+at beginning and follow the process till we get a accending order/desscending order<br>
+/whatever se want in order.(Multiple Steps) <br>
+2.Bubble Sort = We consider a elemet as a bubble , and compare it with the second<br>
+one and do this till the end of the number , it is not mendatory to get <br>
+accending order/desscending order/whatever se want in order in 1st round<br>
+so it will do another round to get the outcome we want(Multiple Round = 1Round + Steps)<br>
+</p><br>
+<h2>Linear search(A,N,item)--(Let us say 22 is our number) : </h2>
+<p>Array - 29-75-29-22-2-95 --(29,75,69,22,2,95) array elements and n=6<br>
+where 22 is our item to be searched.<br>
+1.loc=-1<br>
+2.i=0<br>
+3.Repeat while i<N and A[i]=/item(for this loop i++)<br>
+          1.  0<6.         29=/22<br>
+          2.  1<6.         75=/22<br>
+          3.  2<6          69=/22<br>
+          4.  3<6          22=22  --found<br>
+4.if A[i]=item then<br>
+5.loc=i if not found then we get -1 in loc which means not found.<br>
+6.return loc</p>
 </body>
 </html>

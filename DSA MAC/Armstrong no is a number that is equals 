@@ -77,3 +77,28 @@ linear search(A,N,item)--(Let us say 22 is our number)
 Bubble sort is a simple sorting algorithm that repeatedly steps through the list,
 compares adjacent elements and swaps them if they are in the wrong order.
 29-75-69-22-2-95
+
+
+% Sorting Type-
+1.Selection Sort = find the minimum element in unsorted array and swap it with element
+at beginning and follow the process till we get a accending order/desscending order
+/whatever se want in order.(Multiple Steps)
+2.Bubble Sort = We consider a elemet as a bubble , and compare it with the second
+one and do this till the end of the number , it is not mendatory to get 
+accending order/desscending order/whatever se want in order in 1st round
+so it will do another round to get the outcome we want(Multiple Round = 1Round + Steps)
+
+%Linear search(A,N,item)--(Let us say 22 is our number)
+Array - 29-75-29-22-2-95 --(29,75,69,22,2,95) array elements and n=6
+where 22 is our item to be searched.
+1.loc=-1
+2.i=0
+3.Repeat while i<N and A[i]=/item(for this loop i++)
+            0<6.         29=/22
+            1<6.         75=/22
+            2<6          69=/22
+            3<6          22=22  --found
+4.if A[i]=item then
+5.loc=i if not found then we get -1 in loc which means not found.
+6.return loc
+

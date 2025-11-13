@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(217, 204, 205);
+}
 p{
-    color: rgb(37, 37, 124)
+    color: rgb(50, 50, 157);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

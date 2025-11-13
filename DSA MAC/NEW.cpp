@@ -532,4 +532,67 @@
 // }
 
 
+//selection sort
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout << "Enter the number of elements: ";
+//     cin >> n;
+//     int arr[n];
+//     cout << "Enter the elements of array: ";
+//     for (int k = 0; k < n; k++){
+//         cin >> arr[k];
+//     }
+//     for (int i = 0; i < n-1; i++)
+//     {
+//         for (int j = j + 1; j < n; j++)
+//         {
+//             if (arr[j] > arr[i])
+//             {
+//                 int temp = arr[j];
+//                 arr[j] = arr[i];
+//                 arr[i] = temp;
+//             }
+//         }
+//     }
+//     cout << "Sorted array is: ";
+//     for (int i = 0; i < n; i++){
+//         cout<<arr[i]<<" ";
+//     }
+//     return 0;
+// }
+
+
+//bubble sort
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int n;
+//     cout << "Enter the number of elements: ";
+//     cin >> n;
+//     int arr[n];
+//     cout << "Enter the elements of array: ";
+//     for (int k = 0; k < n; k++){
+//         cin >> arr[k];
+//     }
+//     for (int i = 0; i < n-1; i++)
+//     {
+//         for (int j = 0; j < n-i-1; j++)
+//         {
+//             if (arr[j] > arr[j+1])
+//             {
+//                 int temp = arr[j];
+//                 arr[j] = arr[j+1];
+//                 arr[j+1] = temp;
+//                 swap(arr[j], arr[j+1]);
+//             }
+//         }
+//     }
+//     cout << "Sorted array is: ";
+//     for (int i = 0; i < n; i++){
+//         cout<<arr[i]<<" ";
+//     }
+//     return 0;
+// }
 
