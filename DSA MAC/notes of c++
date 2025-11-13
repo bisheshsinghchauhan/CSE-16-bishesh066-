@@ -1,9 +1,0 @@
-  WHILE LOOP -
-
-  - While loop is an entry contol loop. that repatedly executes a block of codes , as long as the given condition remains true, (While loop is used in situation where we do not know the exact number of iltrations of the loop)
-
-DO and While -
-
-- Do while loop is an exit control loop that repatedly execute a block of codes atleast ones
-and countinues executing as long as a given condition remains true.
-
