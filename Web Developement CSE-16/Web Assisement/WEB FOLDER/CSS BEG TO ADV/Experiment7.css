@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin: 20px;
   background-color: rgb(44, 41, 41);
 }
@@ -7,37 +7,33 @@ body {
 .block_menu a {
   display: block;
   background-color: #6287a0;
-  color: rgb(0, 0, 0);
-  padding: 10px;
+  color: rgb(255, 255, 255);
+  padding: 7px;
   margin: 5px 0;
-  text-decoration: none;
 }
 
 .inline_menu a {
   display: inline;
-  background-color: #60b483;
-  color: rgb(0, 0, 0);
-  padding: 5px;
+  background-color: #384f41;
+  color: rgb(255, 255, 255);
+  padding: 7px;
   margin: 5px;
-  text-decoration: none;
 }
 
 .inline_block_menu a {
   display: inline-block;
-  background-color: #7a5689;
-  color: rgb(0, 0, 0);
-  padding: 10px 15px;
+  background-color: #632d49;
+  color: rgb(252, 252, 252);
+  padding: 7px;
   margin: 5px;
-  text-decoration: none;
 }
 
 .float_menu a {
   float: left;
   background-color: #997658;
-  color: rgb(0, 0, 0);
-  padding: 10px 15px;
+  color: rgb(255, 254, 254);
+  padding: 7px;
   margin: 5px;
-  text-decoration: none;
 }
 
 .clear {
@@ -45,5 +41,5 @@ body {
 }
 
 h1,h2{
-    color: white;
+    color: rgb(255, 255, 255);
 }
