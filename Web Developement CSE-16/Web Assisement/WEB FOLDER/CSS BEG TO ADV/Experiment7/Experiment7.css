@@ -9,7 +9,7 @@ body {
   background-color: #6287a0;
   color: rgb(255, 255, 255);
   padding: 7px;
-  margin: 5px 0;
+  margin: 5px 0px ;
 }
 
 .inline-menu a {
@@ -17,15 +17,17 @@ body {
   background-color: #384f41;
   color: rgb(255, 255, 255);
   padding: 7px;
-  margin: 5px;
+  margin: 5px 0px;
 }
 
 .inline-block-menu a {
   display: inline-block;
-  background-color: #632d49;
-  color: rgb(252, 252, 252);
+  background-color: #a99595;
+  color: rgb(149, 51, 51);
   padding: 7px;
-  margin: 5px;
+  height: 30px;
+  width: auto;
+  margin: 5px 0px;
 }
 
 .float-menu a {
