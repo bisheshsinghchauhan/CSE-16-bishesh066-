@@ -1,0 +1,63 @@
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    align-items: center;
+    background-color: #222;
+    color: white;
+    padding: 15px 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+ }
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.options {
+    display: flex;
+    list-style: none;
+}
+.options li {
+    margin: 0 15px;
+}
+.options a {
+    color: rgb(250, 250, 250);
+    font-size: 1rem;
+}
+.khareedlo {
+    color: rgb(246, 246, 246);
+    font-weight: bold;
+    margin-left: 15px;
+}
+.graduated {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+#menu-toggler {
+    display: none;
+}
+@media (max-width: 768px) {
+    .options {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: #333;
+        padding: 15px 0;
+    }
+    .options li {
+        margin: 10px 0;
+        text-align: center;
+    }
+    .graduated {
+        display: block;
+    }
+    #menu-toggler:checked + .graduated + .options {
+        display: flex;
+    }
+}

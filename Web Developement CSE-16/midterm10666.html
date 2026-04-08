@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid Term Exam 2025B01010666 EXP-3</title>
+</head>
+<body>
+      <form style="border: 2px solid #333;  width: 400px; margin: 0 auto; text-align:center;">
+        <h2>Hotel Booking Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <label for ="Check in Date">Check in Date:</label>
+        <input type="date" id="checkin" name="checkin" required><br><br>
+        <label for ="Check out Date">Check out Date:</label>
+        <input type="date" id="checkout" name="checkout" required><br><br>
+        <label for="Room Type">Room Type:</label>
+        <select name="Room-Type" id="Room Type" required>
+            <option value="Single Room">Single Room</option>
+            <option value="Double Room">Double Room</option>
+            <option value="Triple Room">Triple Room</option>
+        </select><br><br>
+        <label  for="Number of Guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required><br><br>
+        <label for="Special Request">Special Request:</label>
+        <textarea id="Special Request" name="Special Request" row="4" col="30"></textarea><br><br>
+        <input type="submit" value="Book Now" name="Book Now">
+        <input type="reset" value="Reset Form" name="Reset Form">
+      </form>
+</body>
+</html>
