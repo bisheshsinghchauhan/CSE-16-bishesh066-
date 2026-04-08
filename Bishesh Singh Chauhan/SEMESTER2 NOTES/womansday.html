@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌸 For Preety Ji</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(145deg, #fcd9e5 0%, #ffeaf1 50%, #fff2f7 100%);
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+     
+        .heart-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 0;
+            overflow: hidden;
+        }
+
+        .heart-bg i {
+            position: absolute;
+            color: rgba(255, 110, 160, 0.2);
+            font-size: 1.6rem;
+            animation: float 12s linear infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(100vh) scale(0.3) rotate(0deg); opacity: 0; }
+            20% { opacity: 0.5; }
+            80% { opacity: 0.4; }
+            100% { transform: translateY(-20vh) scale(1.5) rotate(360deg); opacity: 0; }
+        }
+
+
+        .love-card {
+            position: relative;
+            z-index: 20;
+            max-width: 780px;
+            width: 100%;
+            background: rgba(255, 250, 250, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-radius: 50px 20px 50px 20px;
+            box-shadow: 0 30px 50px rgba(210, 90, 130, 0.3),
+                        0 10px 25px rgba(255, 150, 190, 0.4),
+                        inset 0 0 0 2px rgba(255, 240, 245, 0.9);
+            padding: 3rem 2.2rem;
+            border: 2px solid rgba(255, 200, 220, 0.7);
+            animation: boldEntrance 1.4s cubic-bezier(0.12, 0.85, 0.25, 1.1) forwards;
+        }
+
+        @keyframes boldEntrance {
+            0% {
+                opacity: 0;
+                transform: scale(0.85) translateY(30px) rotate(-1deg);
+                box-shadow: 0 0 0 rgba(230, 60, 140, 0.2);
+            }
+            40% {
+                opacity: 1;
+                transform: scale(1.03) translateY(-4px) rotate(0.5deg);
+                box-shadow: 0 0 45px 15px rgb(255, 120, 170), 0 0 90px 25px #ffb0d0;
+            }
+            80% {
+                transform: scale(1.01) translateY(2px) rotate(-0.2deg);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0) rotate(0);
+                box-shadow: 0 30px 50px rgba(210, 90, 130, 0.3),
+                            0 10px 25px rgba(255, 150, 190, 0.4),
+                            inset 0 0 0 2px #ffeef2;
+            }
+        }
+
+        .main-title {
+            font-family: 'Great Vibes', cursive;
+            font-size: 4.5rem;
+            font-weight: 700;
+            color: #b12f5e;
+            text-align: center;
+            line-height: 1.2;
+            margin-bottom: 0.2rem;
+            text-shadow: 2px 2px 0 #ffbfd5, 4px 4px 10px rgba(240, 80, 130, 0.5);
+            animation: gentlePulse 2.5s infinite alternate;
+        }
+
+        @keyframes gentlePulse {
+            0% { text-shadow: 2px 2px 0 #ffbfd5, 0 0 15px #ff87af; }
+            100% { text-shadow: 4px 4px 0 #ff99bb, 0 0 30px #ff4f81; }
+        }
+
+    
+        .triple-name {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+            margin: 1.5rem 0 1rem;
+        }
+
+        .name-pill {
+            background: linear-gradient(115deg, #ffb3c6, #ff9bbd);
+            color: #781f43;
+            font-size: 2rem;
+            font-weight: 700;
+            font-family: 'Great Vibes', cursive;
+            padding: 0.3rem 1.8rem 0.6rem;
+            border-radius: 100px;
+            box-shadow: 0 12px 0 #b13e64, 0 15px 20px #f598b2;
+            border: 3px solid white;
+            transform: rotate(-1deg);
+            transition: transform 0.2s;
+        }
+
+        .name-pill:nth-child(2) {
+            transform: rotate(2deg);
+            background: linear-gradient(115deg, #ffa8c5, #ff8eb0);
+        }
+        .name-pill:nth-child(3) {
+            transform: rotate(-2deg);
+        }
+
+        .message-box {
+            background: rgba(255, 235, 245, 0.7);
+            padding: 2.2rem 1.8rem;
+            border-radius: 40px 10px 40px 10px;
+            margin: 2.2rem 0 1.8rem;
+            border-left: 8px solid #ff88aa;
+            border-right: 8px solid #ff88aa;
+            font-size: 1.3rem;
+            line-height: 1.8;
+            color: #3e1f2b;
+            text-align: center;
+            font-weight: 400;
+            box-shadow: inset 0 0 15px #ffe0ed, 0 10px 20px #ffc1d4;
+        }
+
+        .message-box strong {
+            color: #be2f62;
+            font-weight: 700;
+        }
+
+        .message-box i {
+            color: #c63e6b;
+            font-size: 1.5rem;
+        }
+
+     
+        .special-wrapper {
+            text-align: center;
+            margin: 2rem 0 0.2rem;
+        }
+
+        #specialButton {
+            background: #ffe5ed;
+            border: none;
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: #a52d5a;
+            padding: 0.9rem 2.5rem;
+            border-radius: 50px;
+            box-shadow: 0 8px 0 #d46d92, 0 15px 25px #ffb0c8;
+            border: 3px solid white;
+            cursor: pointer;
+            transition: 0.08s linear;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        #specialButton i {
+            margin-right: 10px;
+            color: #e43d70;
+        }
+
+        #specialButton:active {
+            transform: translateY(8px);
+            box-shadow: 0 2px 0 #d46d92, 0 10px 20px #ffb0c8;
+        }
+
+        .secret-reveal {
+            max-width: 500px;
+            margin: 2rem auto 0;
+            background: #fff0f7;
+            border-radius: 40px;
+            padding: 2rem 1.5rem;
+            font-size: 1.7rem;
+            color: #a13055;
+            border: 4px dotted #ff80a5;
+            display: none;
+            font-weight: 600;
+            backdrop-filter: blur(4px);
+            box-shadow: 0 0 50px #ffb8cf;
+        }
+
+        .secret-reveal.show {
+            display: block;
+            animation: pop 0.5s ease-out;
+        }
+
+        @keyframes pop {
+            0% { opacity: 0; transform: scale(0.5) rotate(-2deg); }
+            70% { transform: scale(1.08); }
+            100% { opacity: 1; transform: scale(1) rotate(0); }
+        }
+
+        .footer-note {
+            text-align: center;
+            margin-top: 2.2rem;
+            color: #a75374;
+            font-size: 1.1rem;
+            font-weight: 400;
+        }
+
+        .footer-note i {
+            color: #f23b6a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heart-bg" id="heartBg"></div>
+
+    <main class="love-card">
+
+        <h1 class="main-title">🌹 My Sugarplum 🌹</h1>
+
+
+        <div class="triple-name">
+            <span class="name-pill">Bacha chota</span>
+            <span class="name-pill">Preety Ji</span>
+            <span class="name-pill">Bauna badmosh</span>
+        </div>
+
+  
+        <div class="message-box">
+            <i class="fas fa-heart"></i>  For the woman jo har time gusse me rhte h– 
+            <strong>Preety JI</strong> – I belive tum sabse yada pyara sardard ho mera  <i class="fas fa-heart"></i>
+            <br><br>
+           YK jab tum merese ladti ho to kitna ganda lagta h mereko chota sa to hu mai mereko preshan 
+           krke kya mil jata haaaa?
+        </div>
+
+
+        <div class="special-wrapper">
+            <button id="specialButton"><i class="fa-solid fa-star"></i> Surprise hai mera bacha <i class="fa-solid fa-star"></i></button>
+        </div>
+
+     
+        <div id="secretMessage" class="secret-reveal">
+            <strong>You are my forever reason to smile.</strong><br>
+            <span style="font-size: 1.2rem;">Preety JI – you make my world brighter.<br>💖 i am sorry mereko nhi chillana chahiye the yr im soooo sorry i promise mai abse kabhi bhi game ke chakkar me tumhe nhi datuga sorrrrie💖</span>
+        </div>
+
+        <div class="footer-note">
+            <i class="fas fa-heart"></i>  made with infinite love for you by batman <i class="fas fa-heart"></i>
+        </div>
+    </main>
+
+    <script>
+        (function() {
+            
+            const bg = document.getElementById('heartBg');
+            for (let i = 0; i < 28; i++) {
+                const heart = document.createElement('i');
+                heart.className = 'fas fa-heart';
+                const size = Math.random() * 2 + 0.8; 
+                heart.style.fontSize = size + 'rem';
+                heart.style.left = Math.random() * 100 + '%';
+                heart.style.bottom = '-10%';
+                heart.style.animationDuration = (Math.random() * 8 + 7) + 's'; 
+                heart.style.animationDelay = (Math.random() * 10) + 's';
+                heart.style.color = `rgba(255, ${120 + Math.floor(70 * Math.random())}, 170, 0.25)`;
+                bg.appendChild(heart);
+            }
+
+           
+            const btn = document.getElementById('specialButton');
+            const secret = document.getElementById('secretMessage');
+
+            btn.addEventListener('click', function() {
+             
+                secret.classList.toggle('show');
+
+           
+                if (secret.classList.contains('show')) {
+                    
+                    btn.innerHTML = '<i class="fa-solid fa-heart"></i> surprise opened <i class="fa-solid fa-heart"></i>';
+                    
+                    btn.style.background = '#ffd9e8';
+                } else {
+                    btn.innerHTML = '<i class="fa-solid fa-star"></i> click for your surprise <i class="fa-solid fa-star"></i>';
+                    btn.style.background = '#ffe5ed';
+                }
+            });
+
+            console.log("💗 For Bacha, Shruti, Renuka with love 💗");
+        })();
+    </script>
+
+   
+</body>
+</html>
