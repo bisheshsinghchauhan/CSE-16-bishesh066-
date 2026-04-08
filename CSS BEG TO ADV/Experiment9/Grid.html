@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gridhtml</title>
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            background-color: #f0f0f0;
+            padding: 10px;
+        }
+        .wrapper > div {
+            background-color: #137ee3;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body> 
+    <div class="wrapper">
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+    <div>Four</div>
+    <div>Five</div>
+    <div>Six</div>
+    <div>Seven</div>
+    </div>
+</body>
+</html>

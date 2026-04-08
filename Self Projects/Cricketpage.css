@@ -1,0 +1,66 @@
+.body{
+    background-color: black;
+}
+.div1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(200, 200, 200);
+    padding: 15px;
+    margin: 15px;
+}
+
+.div2{
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    word-spacing: 330px;
+    width: 97%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(180, 180, 180);
+    padding: 15px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0px 15px;
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+    margin-top: 30px;
+}
+
+.img1{
+    display: inline-block;
+    padding: 0px 0px;
+    height: 650px;
+    width: 410px;
+}
+
+.img2{
+    display: inline-block;
+    height: 650px;
+    width: 410px;
+}
+
+.img3{
+    display: inline-block;
+    height: 650px;
+    width: 410px;
+}
+
+.img4{
+    display: inline-block;
+    height: 650px;
+    width: 410px;
+}
+
+.div4{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(205, 200, 200);
+    padding: 15px;
+    margin: 15px;
+}
